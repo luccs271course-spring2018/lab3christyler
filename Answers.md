@@ -1,14 +1,23 @@
 ## TODO also try with a LinkedList - does it make any difference?
 Using a linked list did not necessarily make a difference in the way the program ran, the results were still the same.
-A linked list seems to be more efficient for manipulating data, whereas array lists are better for accessing data.
 
 ## TODO what happens if you use list.remove(77)?
-Every value of 77 in the list would be removed and the index of each value would shift and adjust.
+The method would throw an error, because list.remove(77) checks the index in a list, not the value itself. So it would be
+running gto find the index 77, which does not exist because the list is not that big.
+
+## list.remove(5); // what does this method do?
+Removes the list element stored at the specific index (in this case, 5) and returns the element that was removed.
+
+## list.remove(Integer.valueOf(5)); // what does this one do?
+Returns the integer object that has a value of 5 (not the index)
+
+## which of the two lists performs better as the size increases?
+A linked list seems to be more efficient for manipulating data however, whereas array lists are better for accessing data.
+(See chart below)
 
 
-
-# TESTING
-	                  Test
+## TESTING PERFORMANCE
+	                  Test (at REPS = 1000000)
 Size	              10	100	    1000	10000
 
 addRemoveLinkedList	  53ms	56ms	65ms	54ms

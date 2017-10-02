@@ -15,13 +15,12 @@ public class TestIterator {
 
   private List<Integer> list;
   // See the Java List Interface documentation to understand what all the List methods do ...
-  //private LinkedList<Integer> ll;
 
   @Before
   public void setUp() throws Exception {
-  //  list = new ArrayList<Integer>();
+    list = new ArrayList<Integer>();
     // TODO also try with a LinkedList - does it make any difference?
-    list = new LinkedList<Integer>();
+    //list = new LinkedList<Integer>();
 
   }
 

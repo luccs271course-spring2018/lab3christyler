@@ -15,13 +15,12 @@ import org.junit.Test;
 public class TestList {
 
   private List<Integer> list;
-  private LinkedList<Integer> ll;
 
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
     // TODO also try with a LinkedList - does it make any difference?
-   // ll = new LinkedList<Integer>();
+   // list = new LinkedList<Integer>();
 
   }
 
