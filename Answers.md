@@ -3,7 +3,7 @@ Using a linked list did not necessarily make a difference in the way the program
 
 ## TODO what happens if you use list.remove(77)?
 The method would throw an error, because list.remove(77) checks the index in a list, not the value itself. So it would be
-running gto find the index 77, which does not exist because the list is not that big.
+running to find the index 77, which does not exist because the list is not that big.
 
 ## list.remove(5); // what does this method do?
 Removes the list element stored at the specific index (in this case, 5) and returns the element that was removed.

@@ -21,7 +21,7 @@ public class TestPerformance {
     private final int SIZE = 10000;
 
 
-    // TODO choose this value in such a way that you can observe an actual effect
+    // TODO choose this value in such a way that you can observe an actual effect DONE
     // for increasing problem sizes
      private final int REPS = 1000000;
     //private final int REPS = 2000000;

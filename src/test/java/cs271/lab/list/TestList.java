@@ -66,7 +66,7 @@ public class TestList {
     list.add(77);
     list.add(77);
     // TODO fix the expected values in the assertions below DONE
-    assertEquals(3, list.size());
+    assertEquals(3  , list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(77, list.get(1).intValue());
     assertEquals(2, list.lastIndexOf(77));
@@ -101,7 +101,7 @@ public class TestList {
     list.add(6);
     list.remove(5); // what does this method do?
     // TODO fix the expected values in the assertions below DONE
-    assertEquals(6, list.size());
+    assertEquals(6    , list.size());
     assertEquals(1, list.indexOf(77));
     assertEquals(3, list.lastIndexOf(77));
     assertEquals(4, list.get(2).intValue());
